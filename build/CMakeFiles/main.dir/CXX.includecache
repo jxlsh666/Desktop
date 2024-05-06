@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jxlsh/Desktop/dev/include/functions.h
+
+/home/jxlsh/Desktop/dev/src/main.cpp
+iostream
+-
+unistd.h
+-
+functions.h
+/home/jxlsh/Desktop/dev/src/functions.h
+
